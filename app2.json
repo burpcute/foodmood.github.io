@@ -1,0 +1,22 @@
+{
+  "name": "imagerecog",
+  "description": "Front End for Imagely Hackathon App (Clarifai + Spotify APIs)",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+  "logo": "https://freetoplayir.github.io/stream/logo.png",
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+  },
+  "image": "heroku/php",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-php"
+    }
+  ],
+}
