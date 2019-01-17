@@ -2,7 +2,7 @@
   "name": "imagely-fe",
   "description": "Front End for Imagely Hackathon App (Clarifai + Spotify APIs)
 ",
-  "main": "index.html",
+  "success_url": "/index.html",
   "repository": "https://github.com/burpcute/imagely-fe",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
 }
